@@ -16,7 +16,15 @@ public class xPowerN {
         System.out.println("Enter the power");
         int n = sc.nextInt();
         int r = 1;
-        Recur(x, n, r);
+        if(x == 0){
+            System.out.print(0);
+        }
+        else if (n == 0){
+            System.out.print(1);
+        }
+        else{
+            Recur(x, n, r);
+        }
         sc.close();
     }
 }
