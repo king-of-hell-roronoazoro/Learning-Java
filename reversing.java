@@ -16,5 +16,11 @@ public class reversing{
         }
         System.out.println(Array2);
         sc.close();
+
+        //or simply 
+
+        StringBuilder drow = new StringBuilder(word);
+
+        System.out.println(drow.reverse());
     }
 }
