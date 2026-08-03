@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class recursion6 {
+public class recursion6{
     public static void printNum(int n, int a, int b){ //this came before main fuction coz we need to pre define it.
         if(n == 0){
             return;
