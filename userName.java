@@ -5,7 +5,7 @@ email = “helloWorld123@gmail.com”; username = “helloWorld123” */
 
 import java.util.Scanner;
 
-public class userName{
+public class userName {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your email ID: ");

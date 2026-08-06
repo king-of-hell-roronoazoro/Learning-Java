@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class stackingcases {
+class stackingcases{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Which season are you in? (1. Spring, 2. Summer, 3. Autumn, 4. Winter)");

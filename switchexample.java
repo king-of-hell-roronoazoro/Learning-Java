@@ -3,7 +3,7 @@ import java.util.Scanner;
 //For eg - For ‘1’ print ‘January’, ‘2’ print ‘February’ & so on.
 
 //normally we would to this with if-else statements but here we will do it with switch case statements
-public class switchexample {
+public class switchexample{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of the month: ");

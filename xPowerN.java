@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class xPowerN {
+public class xPowerN{
     public static void Recur(int x, int n, int r){
         if(n == 0){
             System.out.print(r);

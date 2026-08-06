@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class setBit{
+public class setBit {
     public static void main(String []args){
         Scanner sc = new Scanner(System.in);
         int x = 0; //initialise x and dont worry in the do while loop the loop runs one time even tho we wrote x=0 

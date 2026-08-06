@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class userNameADV {
+public class userNameADV{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your email ID: ");
