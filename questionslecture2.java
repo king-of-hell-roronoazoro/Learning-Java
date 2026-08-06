@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class questionslecture2 {
+public class questionslecture2{
 
     
     

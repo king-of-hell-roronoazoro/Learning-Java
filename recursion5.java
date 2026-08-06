@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class recursion5 {
+public class recursion5{
     public static void printNum(int n, int fac, int i){ //this came before main fuction coz we need to pre define it.
         if(i == 1){
             fac *= i;

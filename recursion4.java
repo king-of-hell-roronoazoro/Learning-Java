@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class recursion4 {
+public class recursion4{
     public static void printNum(int n, int sum, int i){ //this came before main fuction coz we need to pre define it.
         if(i == n){
             sum += i;

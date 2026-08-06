@@ -1,4 +1,4 @@
-public class recursion3 {
+public class recursion3{
     public static void printNum(int n, int sum){ //this came before main fuction coz we need to pre define it.
         if(n >= 11){ //coz we want to add till 10.
             return; //if n becomes >10, returns the control and stops the recursion.

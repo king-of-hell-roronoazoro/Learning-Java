@@ -1,4 +1,4 @@
-public class recursion1 {
+public class recursion1{
     public static void printNum(int n){ //this came before main fuction coz we need to pre define it.
         if(n == 0){
             return; //if n becomes 0 returns the control and stops the recursion.
