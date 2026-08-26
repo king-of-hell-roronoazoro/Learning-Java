@@ -7,14 +7,14 @@ class employee {
         name = n;
     }
 
-    // Getter for Name: returns the string
-    public String getName() { 
-        return name;
-    }
-
     // Setter for ID
     public void setId(int i) {
         id = i;
+    }
+
+    // Getter for Name: returns the string
+    public String getName() { 
+        return name;
     }
 
     // Getter for ID: no parameters needed!
@@ -27,7 +27,7 @@ public class privatemodifier {
     public static void main(String args[]) {
         employee pranav = new employee();
         
-        pranav.setName("Pranav");
+        pranav.setName("karthikeya");
         pranav.setId(67);
 
         // Wrap getter in System.out.println to display the output
