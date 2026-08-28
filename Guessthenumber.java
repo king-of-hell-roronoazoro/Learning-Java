@@ -3,6 +3,7 @@ class game{
     private int compno;
     private int userno;
     int operation = 0;
+    int noguesses = 0;
     void getInput(int no){
         userno = no; //puts user no = no coz userno is private.
     }
@@ -16,10 +17,10 @@ class game{
             operation = 1;
         }else if(userno > compno){
             System.out.println("You guessed a bit high");
+            noguesses++;
         }else if(userno < compno){
             System.out.println("Guess Higher");
-        }else{
-            System.out.println("INVALID");
+            noguesses++;
         }
     }
 }
@@ -34,6 +35,7 @@ public class Guessthenumber{
             player.getInput(in);  //pass guess to game || give in as input for getInput() as no variable.
             player.checknumber(); //check guess
         }
+        System.out.println("No of guesses is: " + player.noguesses);
         sc.close();
     }
 }
