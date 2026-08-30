@@ -21,11 +21,10 @@ Welcome to my Java learning journey! This repository contains my solution attemp
 
 | Project / Exercise | Description | Concepts Used |
 | :--- | :--- | :--- |
-| **`Phone`** | Simulates phone actions (ringing, vibrating). | Class creation, instance methods |
 | **`Square` & `Rectangle`** | Calculates area and perimeter based on user inputs. | Scanner, state updates, instance methods |
 | **`Circle`** | Validates user-calculated area and perimeter against dynamic logic. | Object encapsulation, Math calculations |
 | **`Cylinder`** | Getter/setter practices and dynamic area calculations. | Encapsulation, private modifiers |
-| **`Rock Paper Scissors`** | Text-based game against computer logic. | `java.util.Random`, conditional logic |
+| **`Guessing the number`** | Text-based game against computer logic. | `java.util.Random`, conditional logic |
 
 ---
 
