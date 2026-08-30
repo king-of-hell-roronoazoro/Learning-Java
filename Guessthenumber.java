@@ -3,7 +3,7 @@ class game{
     private int compno;
     private int userno;
     int operation = 0;
-    int noguesses = 0;
+    int noguesses = 0;//number of guesses
     void getInput(int no){
         userno = no; //puts user no = no coz userno is private.
     }
